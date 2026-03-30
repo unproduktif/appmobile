@@ -9,7 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- TITLE -->
         <TextView
             android:text="Aplikasi Nilai Mahasiswa"
             android:textSize="22sp"
@@ -18,7 +17,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <!-- NAMA -->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -42,7 +40,6 @@
                 android:hint="Masukkan nama"/>
         </LinearLayout>
 
-        <!-- NIM -->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_marginTop="8dp"
@@ -67,7 +64,6 @@
                 android:hint="Masukkan NIM"/>
         </LinearLayout>
 
-        <!-- SEMESTER -->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_marginTop="8dp"
@@ -93,7 +89,6 @@
                 android:hint="Contoh: 5"/>
         </LinearLayout>
 
-        <!-- MATA KULIAH -->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_marginTop="8dp"
@@ -118,7 +113,6 @@
                 android:hint="Nama mata kuliah"/>
         </LinearLayout>
 
-        <!-- NILAI (tetap vertikal biar enak) -->
         <TextView
             android:text="Masukkan Nilai Akhir Anda!"
             android:layout_marginTop="16dp"
@@ -181,7 +175,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <!-- BUTTON -->
         <Button
             android:id="@+id/btnHitung"
             android:text="Hitung Nilai Akhir"
@@ -189,7 +182,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <!-- HASIL -->
         <TextView
             android:id="@+id/hasil"
             android:textSize="18sp"
