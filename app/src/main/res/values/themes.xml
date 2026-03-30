@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Appmobile" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Optional warna -->
+        <item name="android:statusBarColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.Appmobile" parent="Base.Theme.Appmobile" />
+
+</resources>
